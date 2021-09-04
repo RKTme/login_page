@@ -18,49 +18,39 @@ input:focus {
     background-size: cover;
 }
 .main {
-	width: 400px;
-	height: 500px;
-	background: black;
-	opacity: 0.2;
+	max-width: 320px;
+	max-height: 500px;
+	background: rgba(0, 0, 0, 0.2);
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -250px 0px 0px -200px;
+	transform: translate(-50%, -50%);
+	border-radius: 4px;
+	padding: 48px 28px;
 }
 .welcome {
-	width: 200px;
-	height: 50px;
 	font-family: Trebuchet MS;
 	font-size: 50px;
 	color: white;
-	position: relative;
-	left: 43%;
-	top: 20%;
+	text-align: center;
 }
 .credentials {
+	padding: 8px;
+	margin: 4px 0;
+	width: 100%;
 	color: white;
-	position: absolute;
-	left: 42%;
-	top: 40%;
 	font-size: 20px;
 	background: transparent;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom-width: 1px;
-	border-bottom-color: #bfbfbf;
-}
-#psswrd {
-	top: 49%;
+	border:0;
+	border-bottom: 1px solid #bfbfbf;
 }
 .loginbutton {
-	position: absolute;
-	left: 48%;
-	top: 60%;
+	margin: 8px 0 8px auto;
+	display: block;
+	padding: 8px 16px;
 	font-size: 16px;
 	color: white;
 	background-color: #42648a;
-	padding: 6px 12px 6px 12px;
     border: 0;
 	border-radius: 4px;
 }
@@ -76,6 +66,6 @@ button:focus {
 }
 b:hover {
     text-decoration: underline;
-	text-decoration-color: color:#648ab4;
+	text-decoration-color:#648ab4;
 	cursor: pointer;
 }
