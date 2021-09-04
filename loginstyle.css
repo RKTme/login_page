@@ -26,13 +26,14 @@ input:focus {
 	top: 50%;
 	transform: translate(-50%, -50%);
 	border-radius: 4px;
-	padding: 48px 28px;
+	padding: 48px 32px;
 }
 .welcome {
 	font-family: Trebuchet MS;
 	font-size: 50px;
 	color: white;
 	text-align: center;
+	margin-bottom: 36px;
 }
 .credentials {
 	padding: 8px;
@@ -45,7 +46,8 @@ input:focus {
 	border-bottom: 1px solid #bfbfbf;
 }
 .loginbutton {
-	margin: 8px 0 8px auto;
+	cursor: pointer;
+	margin: 8px 0 24px auto;
 	display: block;
 	padding: 8px 16px;
 	font-size: 16px;
@@ -56,13 +58,16 @@ input:focus {
 }
 button:hover {
 	background-color: #3a5778;
-	cursor: pointer;
 }
 button:active {
 	background-color: #324b67;
 }
 button:focus {
 	outline: none;
+}
+.other-links{
+	margin-top: 16px;
+	text-align: right;
 }
 b:hover {
     text-decoration: underline;
